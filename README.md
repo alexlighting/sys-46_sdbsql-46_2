@@ -22,28 +22,28 @@ SELECT * FROM mysql.user;
    
 ## Задание 2 Список таблиц базы Sakila
 
-|Таблица|PrimaryKey|
-|---|---|---|
-|Actor|Actor_id|
-|Address|Address_id|
-|Category|Category_id|
-|city|city_id|
-|country|country_id|
-|customer|customer_id|
-|film|film_id|
-|film_actor|actor_id, film_id|
-|film_category|film_id, category_id|
-|film_text|film_id|
-|inventory|inventory_id|
-|language|language_id|
-|payment|payment_id|
-|rental|rental_id|
-|staff|staff_id|
-|store|store_id|
+| Таблица | PrimaryKey |
+| --- | --- |
+| Actor | Actor_id |
+| Address | Address_id |
+| Category | Category_id |
+| city | city_id |
+| country | country_id |
+| customer | customer_id |
+| film | film_id |
+| film_actor | actor_id, film_id |
+| film_category | film_id, category_id |
+| film_text | film_id |
+| inventory | inventory_id |
+| language | language_id |
+| payment | payment_id |
+| rental | rental_id |
+| staff | staff_id |
+| store | store_id |
 
 ## Задание 3 Удаление прав доступа
 
-С этим заданием возникли сложности, из-за чего я не смог разобраться, ошибки в запросе я не нашел, но резульат выполнения странный. 
+С этим заданием возникли сложности, из-за чего я не смог разобраться, ошибки в запросе я не нашел, но результат выполнения странный. 
 Началоссь все с того что у пользователя sys_temp не было прав на БД Sakila, ее я разворачивал уже после того как установил права пользователю, поэтому предположив что на новую БД права ему автоматом не подтянулись я добавил эти права явно
 
 ```SQL
